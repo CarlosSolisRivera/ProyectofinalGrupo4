@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light fixed">
+            <span class="navbar-brand mb-0 h1">
+                <img alt="Brand" style="height: 100px;" src="assets/curriculum.jpg">
+            </span>
+            <div class="row">
+                <a class="nav-item nav-link boton-navbar active" href="usuarios.html">Usuarios</a>
+                <a class="nav-item nav-link boton-navbar" href="administrador.html">Mi Cuenta</a>
+                <a class="nav-item nav-link boton-navbar" href="login.html">Cerrar Sesión</a>
+              </div>
+          </nav>
+
+          <div>
+            <form>
+                <!-- crear usuario -->
+                <label for="crear_usuario">Crear Usuario:</label>
+                <input for="crear_usuario" type="email">
+                <label for="rol">Rol:</label>
+                <input form="rol" type="text">
+                <label for="estado">Estado:</label>
+                <select id="estado" size="1">
+                    <option value="1">Activo</option>
+                    <option value="2">Inactivo</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+            </form>
+            
+                <!-- lista -->
+            <form>
+                
+                <table class="table table-secondary">
+                    <h2>Lista de Usuarios</h2>
+                    <h6 style="text-align: right;">Numero total de usuarios: 3</h6>
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Rol</th>
+                        <th><a>Estado<select id="estado" size="1">
+                            <option value="1">Ambos</option>
+                            <option value="2">Activo</option>
+                            <option value="3">Inactivo</option>
+                        </select></a></th>
+                        <th><button type="submit" class="btn btn-primary">Buscar</button></th>
+                    </tr>
+                    <tr>
+                        <td>javier@gmail.com</td>
+                        <td>Ingeniero de Sistemas</td>
+                        <td>Activo</td>
+                        <td><button type="submit" class="btn btn-secondary">Actualizar</button></td>
+                    </tr>
+                    <tr>
+                        <td>ahuerta@gmail.com</td>
+                        <td>Ingeniero Civil</td>
+                        <td>Inactivo</td>
+                        <td><button type="submit" class="btn btn-secondary">Actualizar</button></td>
+                    </tr>
+                    <tr>
+                        <td>ramiro_12@yahoo.com</td>
+                        <td>Ingeniero Industrial</td>
+                        <td>Activo</td>
+                        <td><button type="submit" class="btn btn-secondary">Actualizar</button></td>
+                    </tr>
+                </table>
+            </form>
+          </div>
+          
+    </body>
+</html>
