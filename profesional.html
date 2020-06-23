@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="profesional.css">
+    <title>MiCV</title>
+</head>
+<body>
+    <div>
+        <ul class="nav justify-content-end navbar-light bg-light">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Usuario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mi cuenta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cerrar sesion</a>
+            </li>
+            
+          </ul>
+
+    </div>
+
+<div >
+    <nav class="nav nav-pills nav-justified bg-light">
+        <div id="botoneslink">
+            <button class="btn btn-primary">
+                <a id="links"  class="nav-item nav-link " href="#">Mis datos</a>
+            </button>
+            <button class="btn btn-primary">
+                <a id="links"  class="nav-item nav-link " href="#">Entidades</a>
+            </button>
+            <button class="btn btn-primary">
+                <a id="links"  class="nav-item nav-link " href="#">Ocupaciones</a>
+            </button>
+            <button class="btn btn-primary">
+                <a id="links"  class="nav-item nav-link " href="#">Experiencia</a>
+            </button>
+            <button class="btn btn-primary">
+                <a id="links"  class="nav-item nav-link " href="#">MiCV</a>
+            </button>
+        </div>
+        
+        
+      </nav>
+</div>
+<hr>
+<div id="lista" >
+    <form>
+                
+        <table class="table table-secondary">
+            <h2>Lista de Usuarios</h2>
+            <h6 style="text-align: right;">Numero total de usuarios: 3</h6>
+            <tr>
+                <th>Usuario</th>
+                <th>Rol</th>
+                <th><a>Estado<select id="estado" size="1">
+                    <option value="1">Ambos</option>
+                    <option value="2">Activo</option>
+                    <option value="3">Inactivo</option>
+                </select></a></th>
+                <th><button type="submit" class="btn btn-primary">Buscar</button></th>
+            </tr>
+            <tr>
+                <td>javier@gmail.com</td>
+                <td>Ingeniero de Sistemas</td>
+                <td>Activo</td>
+                <td><button type="submit" class="btn btn-secondary">Actualizar</button></td>
+            </tr>
+            <tr>
+                <td>ahuerta@gmail.com</td>
+                <td>Ingeniero Civil</td>
+                <td>Inactivo</td>
+                <td><button type="submit" class="btn btn-secondary">Actualizar</button></td>
+            </tr>
+            <tr>
+                <td>ramiro_12@yahoo.com</td>
+                <td>Ingeniero Industrial</td>
+                <td>Activo</td>
+                <td><button type="submit" class="btn btn-secondary">Actualizar</button></td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+   
+</body>
+</html>
