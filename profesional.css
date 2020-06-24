@@ -1,0 +1,37 @@
+#botoneslink{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#links{
+    color: antiquewhite;
+}
+#lista{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#datos{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#ocupaciones{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#botones-ocupacion{
+  
+    text-align: center
+}
+#añadir-ocupaciones{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ocu-registrada{
+    text-align: center;
+}
