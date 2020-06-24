@@ -1,14 +1,19 @@
 
-.active {
-    font-weight: bold;
-    font-size: 18px;
 }
-
+#texto-cuenta{
+    text-align: center;
+}
 
 .boton-navbar {
     color: black;
     font-size: 18px;
 }
+#micuenta{
+    padding: 20px;
+    width: 700px;
+    
+}
+
 
 #container {
     position: fixed;
@@ -41,4 +46,3 @@ label {
     padding-top: 10px;
     font-size: 14px;
 }
-
